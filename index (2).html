@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Demas Group of Companies</title>
+
+    <style> @media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    .hero-text {
+        font-size: 17px;
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .contact-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-buttons a {
+        width: 80%;
+        max-width: 280px;
+    }
+}
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background: #0b1f3a;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        .services {
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            color: #0b1f3a;
+            font-size: 28px;
+        }
+
+        .service-box {
+            background: white;
+            margin: 15px auto;
+            padding: 25px;
+            max-width: 400px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        .service-box h3 {
+            color: #c99a2e;
+            font-size: 22px;
+        }
+
+        .contact {
+            background: #0b1f3a;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        .contact h2 {
+            color: #d4af37;
+        }
+
+        footer {
+            background: #071426;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body> <nav class="navbar">
+    <<div class="logo">
+    <div class="logo">
+    <div class="logo-main">DEMAS</div>
+    <div class="logo-sub">GROUP OF COMPANIES</div>
+</div>>.logo {
+    color: #d4af37;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    .logo {
+    text-align: left;
+    line-height: 1;
+}
+
+.logo-main {
+    color: #d4af37;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.logo-sub {
+    color: white;
+    font-size: 9px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+}
+
+    <<button class="menu-button" onclick="toggleMenu()">☰</button> div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>.navbar {
+    background: #071426;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    color: #d4af37;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #d4af37;
+}
+
+    <<<header id="home">
+    <div class="hero-content">
+        <p class="welcome">WELCOME TO</p>
+
+        <h1>Demas Group of Companies</h1>
+
+        <p class="hero-text">
+            Phones & Accessories • Tech • Exchange Work
+        </p>
+
+        <p class="hero-description">
+            Quality products and reliable services you can trust.
+        </p>
+
+        <a href="#products" class="hero-button">
+            Explore Our Products
+        </a>.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.welcome {
+    color: #d4af37;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
+header h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+.hero-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-description {
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+
+.hero-button {
+    display: inline-block;
+    background: #d4af37;
+    color: #071426;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    transform: scale(1.05);
+}
+    </div>
+</header>
+    </header>
+
+    <<section class="services" id=<a href="#services">Services</a> 
+        <h2>Our Services</h2
+
+        <div class="service-box">
+            <h3>📱 Phone & Accessories</h3>
+            <p>Quality phones and accessories for your everyday needs.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>💻 Tech</h3>
+            <p>Technology products and solutions you can rely on.</p>
+        </div>
+
+        <div class="service-box">
+            <h3>💱 Exchange Work</h3>
+            <p>Fast and reliable exchange services.</p>
+        </div>
+    </section>
+
+    <<<section class="about" id="about">
+
+    <p class="section-label">ABOUT US</p>
+
+    <h2>Demas Group of Companies</h2>
+
+    <p>
+        Demas Group of Companies provides phones and accessories,
+        technology products, and exchange services for customers
+        looking for quality and reliability.
+    </p>
+
+    <p>
+        We are committed to providing dependable products and
+        services while giving our customers a convenient and
+        trustworthy experience.
+    </p>
+
+    <div class="about-highlights">
+
+        <div>
+            <strong>📱</strong>
+            <span>Phones & Accessories</span>
+        </div>
+
+        <div>
+            <strong>💻</strong>
+            <span>Technology</span>
+        </div>
+
+        <div>
+            <strong>💱</strong>
+            <span>Exchange Work</span>
+        </div>
+
+    </div>
+
+</section>.section-label {
+    color: #c99a2e;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+
+.about-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.about-highlights div {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 180px;
+}
+
+.about-highlights strong {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.about-highlights span {
+    font-weight: bold;
+    color: #0b1f3a;
+}
+
+    <p>
+        Demas Group of Companies is a growing business focused on
+        phones and accessories, technology products, and reliable
+        exchange services.
+    </p><<section class="products" id="products">
+
+    <p class="section-label">WHAT WE OFFER</p>
+
+    <h2>Our Products</h2> <input
+    type="text"
+    id="productSearch"
+    class="product-search"
+    placeholder="Search products..."
+    onkeyup="searchProducts()">.product-search {
+    width: 90%;
+    max-width: 500px;
+    padding: 14px 18px;
+    margin: 0 auto 30px;
+    display: block;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.product-search:focus {
+    border-color: #0b1f3a;
+}
+
+    <p class="products-intro">
+        Explore some of the products available from Demas Group of Companies.
+    </p>
+
+    <div class="product-container">
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+                 alt="Smartphones">
+            <h3>Smartphones</h3>
+            <p>Quality smartphones from popular brands.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1609592424721-1c2a6c7b6f6a"
+                 alt="Phone Chargers">
+            <h3>Chargers & Cables</h3>
+            <p>Chargers, USB cables and other phone accessories.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+                 alt="Earpiece">
+            <h3>Earpieces</h3>
+            <p>Quality headphones and earpieces.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1585998387551-2c5b3f2a0c6c"
+                 alt="Phone Battery">
+            <h3>Phone Batteries</h3>
+            <p>Replacement batteries for compatible phones.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1"
+                 alt="AirPods">
+            <h3>AirPods</h3>
+            <p>Wireless audio products and accessories.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853"
+                 alt="Tech Products">
+            <h3>Tech Products</h3>
+            <p>Useful technology products for everyday needs.</p>
+            <a href="#contact">Contact Us</a>
+        </div>
+
+    </div>
+
+</section>.products-intro {
+    max-width: 650px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.product-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    color: #c99a2e;
+    font-size: 21px;
+}
+
+.product-card p {
+    line-height: 1.6;
+}
+
+.product-card a {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 11px 20px;
+    background: #0b1f3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}@media (max-width: 600px)   }  . product-container {
+        grid-template-columns: 1fr;
+    }
+
+</section>.products {
+    padding: 50px 20px;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+.products h2 {
+    color: #0b1f3a;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.product-icon {
+    font-size: 50px;
+}
+
+.product-card h3 {
+    color: #c99a2e;
+    font-size: 22px;
+}
+
+.product-card p {
+    line-height: 1.6;
+}
+
+.product-card a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #0b1f3a;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+    <p>
+        Our goal is to provide quality products and dependable
+        services to our customers.
+    </p>
+</section>.about {
+    background: white;
+    padding: 50px 25px;
+    text-align: center;
+}
+
+.about h2 {.logo {
+color: #d4af37;
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 2px;
+}
+
+.logo span {
+color: white;
+font-size: 14px;
+display: block;
+letter-spacing: 3px;
+}
+    color: #0b1f3a;
+    font-size: 28px;
+}
+
+.about p {
+    max-width: 700px;
+    margin: 15px auto;
+    line-height: 1.7;
+    font-size: 17px;
+}<
+        <<section class="contact" id="contact">
+    <h2>Contact Us</h2>
+
+    <p>Get in touch with Demas Group of Companies today.</p><p>📍 68 Gunning Road, Abakaliki, Ebonyi State</p>
+
+    <div class="contact-buttons">
+        <a href="tel:08105483312" class="call-btn">
+            📞 Call Us
+        </a>
+
+        <a href="https://wa.me/2348105483312" class="whatsapp-btn">
+            💬 WhatsApp Us
+        </a>
+    </div>
+</section>.contact-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.contact-buttons a {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.call-btn {
+    background: #d4af37;
+    color: #071426;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+}
+
+.contact-buttons a:hover {
+    transform: scale(1.05);
+}
+    </section>
+
+    <footer>
+        <p><footer>
+
+    <h2>Demas Group of Companies</h2>
+
+    <p>Phones & Accessories • Tech • Exchange Work</p>
+
+    <p>📍 68 Gunning Road, Abakaliki, Ebonyi State</p>
+
+    <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <p class="copyright">
+        © 2026 Demas Group of Companies. All Rights Reserved.
+    </p>
+
+</footer>footer {
+    background: #071426;
+    color: white;
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+footer h2 {
+    color: #d4af37;
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    margin: 25px 0;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    color: #d4af37;
+}
+
+.copyright {
+    border-top: 1px solid #555;
+    padding-top: 20px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+    </footer>
+
+</body><a href="https://wa.me/2348105483312"
+   class="floating-whatsapp"
+   target="_blank"
+   aria-label="Chat with Demas on WhatsApp">
+    💬
+</a>.floating-whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 55px;
+    height: 55px;
+    background: #25D366;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 28px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    z-index: 2000;
+}
+
+.floating-whatsapp:hover {
+    transform: scale(1.1);
+
+</html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body><script>
+function searchProducts() {
+    const searchInput = document.getElementById("productSearch");<button class="clear-search" onclick="clearSearch()">
+    Show All Products
+</button>.clear-search {
+    display: block;
+    margin: -15px auto 30px;
+    padding: 10px 20px;
+    background: #0b1f3a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.clear-search:hover {
+    background: #d4af37;
+    color: #071426;
+}
+    const searchText = searchInput.value.toLowerCase();
+
+    const products = document.querySelectorAll(".product-card");
+
+    products.forEach(function(product) {
+        const productName = product
+            .querySelector("h3")
+            .textContent
+            .toLowerCase();
+
+        if (productName.includes(searchText)) {
+            product.style.display = "";.menu-button {
+    display: none;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        width: 100%;
+        background: #071426;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 10px;
+    }
+}
+        } else {
+            product.style.display = "none";
+        }
+    });
+}
+</function clearSearch() {
+    document.getElementById("productSearch").value = "";
+
+    const products = document.querySelectorAll(".product-card");
+
+    products.forEach(function(product) {
+        product.style.display = "";
+    });
+}script>function toggleMenu() {
+    const menu = document.querySelector(".nav-links");
+    menu.classList.toggle("active");
+}
+  
+</body>
+
+</html>
